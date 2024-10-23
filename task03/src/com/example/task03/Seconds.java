@@ -5,24 +5,27 @@ package com.example.task03;
  */
 public class Seconds implements TimeUnit {
 
-    private final long amount;
+    private final long Seconds;
 
-    public Seconds(long amount) {
-        this.amount = amount;
+    public Seconds(long seconds) {
+        this.Seconds = seconds;
     }
 
     @Override
     public long toMillis() {
-        return amount * 1000;
+        return Seconds * 1000;
     }
 
     @Override
     public long toSeconds() {
-        return amount;
+        return Seconds;
     }
 
     @Override
     public long toMinutes() {
-        return Math.round(amount / 60);
+        return Math.round(Seconds / 60f);
     }
+
+    @Override
+    public long toHours(){ return  Math.round(Seconds / 3600f); }
 }
