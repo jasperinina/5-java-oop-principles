@@ -1,4 +1,4 @@
-﻿package com.example.task04;
+package com.example.task04;
 
 public interface MessageHandler {
     void log(String massage);

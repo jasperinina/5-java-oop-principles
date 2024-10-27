@@ -1,4 +1,4 @@
-﻿package com.example.task04;
+package com.example.task04;
 
 public enum LoggerLevel {
     DEBUG,

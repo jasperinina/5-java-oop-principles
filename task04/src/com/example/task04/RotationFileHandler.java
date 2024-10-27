@@ -1,4 +1,4 @@
-﻿package com.example.task04;
+package com.example.task04;
 
 import java.io.File;
 import java.io.FileOutputStream;
